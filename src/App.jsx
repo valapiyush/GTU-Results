@@ -1,7 +1,6 @@
 
-import { Route, Router, Routes } from 'react-router'
+import { Route, Routes } from 'react-router'
 import './App.css'
-import { HomePage } from './components/HomePage'
 import { MyResults } from './components/MyResults'
 import { ResultPage } from './components/ResultPage'
 function App() {
