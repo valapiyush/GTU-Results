@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body{
+    background-color: #797979;
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Allow different heights */
+    justify-content: flex-start;
+    gap: 70px; /* Space between the two panels */
+    margin-left: 70px;
+    margin-top: 130px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  
+  /* Left Panel - Personal Info */
+  .white-panel.personal-info {
+background-color: white;
+    color: #000000;
+    text-align: center;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    width: 45%; /* slightly narrower */
+    overflow: hidden;
+  }
+  
+  /* Right Panel - Academic Info */
+  .white-panel.academic-info {
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    width: 55%; /* slightly wider */
+    overflow: hidden;
+  }
+  
+  .white-header {
+    background: #ff865c;
+    padding: 12px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .white-header h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .panel-body {
+    padding: 15px;
+  }
+  
+  .myTable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .myTable td {
+    border: 1px solid #eee;
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+  
+  .myTable span {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+  }
+  
+  .myTable img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .label-success {
+    background-color: #5cb85c;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+  
+  /* Responsive Design */
+  @media screen and (max-width: 900px) {
+    .details-container {
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .white-panel.personal-info,
+    .white-panel.academic-info {
+      width: 100%;
+    }
+  }
+  

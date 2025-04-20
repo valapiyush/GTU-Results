@@ -1,0 +1,191 @@
+.result-main-container{
+    width: 100%;
+}
+.result-container {
+    max-width: 900px;
+    margin-left: 200px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-selector,
+  .exam-dropdown {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .label-bold {
+    width: 10rem;
+    font-weight: 600;
+    /* margin-right: 100px; */
+  }
+  .student-details p {
+    margin: 6px 0;
+    font-size: 14px;
+    display: flex;
+  }
+  
+  .student-details strong {
+    width: 150px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .exam-dropdown select {
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    color: grey;
+  }
+  
+  .btn-search{
+    background-color: #007bff;
+    color: white;
+    padding: 5px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .exam-search-wrapper {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 16px; */
+    gap: 16px;
+  }
+  
+  .exam-search-fields {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  .exam-search-fields select,
+  .exam-search-fields .btn-search {
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .exam-search-fields select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: white;
+    color: grey;
+    border: 1px solid #ccc;
+  }
+  
+  .exam-search-fields .btn-search {
+    padding: 0 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .exam-search-fields .btn-search:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-search:hover,
+  .button-print:hover {
+    color: #0056b3;
+  }
+  .button-print{
+    background-color: #ffffff;
+    color:#007bff;
+  }
+  
+  .instruction-box {
+    margin-top: 20px;
+    background-color: #fffbea;
+    color: #856404;
+    padding: 10px;
+    border-left: 5px solid #ffc107;
+  }
+  
+  .student-details {
+    /* margin-top: 20px; */
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .checkbox-wrapper {
+    margin-top: 20px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .result-table th,
+  .result-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .result-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  .no-border-summary,
+.no-border {
+  border: none !important;
+  text-align: left;
+}
+  .summary-row td {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  .result-table td.no-border {
+    text-align: center; /* Align text properly */
+    padding: 8px;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    color: green;
+    font-weight: 600;
+  }
+  .gtu-container {
+    width: 90%;
+    height: 60pxpx;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    
+  }
+  .result-logo img{
+    width: 70px;
+    height: 55px;
+  }
+  .gtu-header{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: grey;
+    line-height: normal;
+  }
+  .result-header{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 200px;
+  }
+  
