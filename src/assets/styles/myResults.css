@@ -115,7 +115,7 @@ body {
 @media screen and (max-width: 900px) {
   .details-container {
     flex-direction: column; /* Stack panels vertically */
-    margin-left: 10px;
+    margin-left: 40px;
     margin-right: 10px;
     gap: 20px; /* Reduce gap for mobile */
   }
