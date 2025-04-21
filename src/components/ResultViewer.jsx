@@ -214,7 +214,7 @@ const ResultViewer = () => {
                 ))}
                 <tr style={{ height: "20px" }}></tr>
                 <tr className="summary-row">
-                  <td>
+                  <td style={{width: "20%"}}>
                     <span>Current Backlog:</span> {summary.currentSemBacklog}
                   </td>
                   <td>
@@ -223,7 +223,7 @@ const ResultViewer = () => {
                   <td>
                     <span>SPI:</span> {summary.spi}
                   </td>
-                  <td colSpan={2}>
+                  <td >
                     <span>CPI:</span> {summary.cpi}
                   </td>
                 </tr>

@@ -6,7 +6,7 @@ export const MyResults = () => {
   return (
     <div>
       <GtuResultPage />
-      <HomePage />
+      {/* <HomePage /> */}
       <div className="details-container">
         <div className="white-panel pn personal-info">
           <div className="white-header">
@@ -63,7 +63,7 @@ export const MyResults = () => {
                   </td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr> */}
@@ -74,7 +74,7 @@ export const MyResults = () => {
                   </td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>
@@ -83,7 +83,7 @@ export const MyResults = () => {
                   <td></td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>
@@ -92,7 +92,7 @@ export const MyResults = () => {
                   <td></td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>
@@ -103,7 +103,7 @@ export const MyResults = () => {
                   </td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>
@@ -114,7 +114,7 @@ export const MyResults = () => {
                   </td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>
@@ -125,7 +125,7 @@ export const MyResults = () => {
                   </td>
                   <td>
                     <a href="#">
-                      <img src="/images/edit.png" alt="Edit" />
+                      <img src="https://student.gtu.ac.in/images/icon-edit.gif" alt="Edit" />
                     </a>
                   </td>
                 </tr>

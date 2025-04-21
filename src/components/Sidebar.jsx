@@ -52,7 +52,7 @@ export const Sidebar = ({ isOpen }) => {
               <img
                 id="profile-img"
                 className="profile-image"
-                src="/images/Profile.jpg"
+                src="https://res.cloudinary.com/dhd658u4t/image/upload/v1745209357/c1qitu4g8kr3srfhy4br.jpg"
                 alt="Profile"
               />
             </NavLink>

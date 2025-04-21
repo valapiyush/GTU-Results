@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "../assets/styles/gtuResultPage.css";
 import { Sidebar } from "./Sidebar";
+import { HomePage } from "./HomePage";
 
 export const GtuResultPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -13,6 +14,7 @@ export const GtuResultPage = () => {
   return (
     <div className="container">
       {/* Sidebar */}
+      <HomePage />
       <Sidebar isOpen={isSidebarOpen} />
 
       {/* Navbar */}
@@ -21,7 +23,7 @@ export const GtuResultPage = () => {
           <FaBars style={{ color: "#636363", cursor: "pointer" }} />
         </div>
         <div className="logo">
-          <img src="/images/gtuLogo.png" alt="" />
+          <img src="https://student.gtu.ac.in/assets/img/gtuLogo.png" alt="" />
         </div>
         <div className="navbar-header">
           <b>GUJARAT TECHNOLOGICAL UNIVERSITY</b>

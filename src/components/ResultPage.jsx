@@ -8,7 +8,7 @@ export const ResultPage = () => {
         <GtuResultPage/>
         <div className="gtu-container">
             <div className="result-logo">
-          <img src="/images/gtuLogo.png" alt="" />
+          <img src="https://student.gtu.ac.in/assets/img/gtuLogo.png" alt="" />
         </div>
         <div className="gtu-header">
           <b>GUJARAT TECHNOLOGICAL UNIVERSITY</b>
