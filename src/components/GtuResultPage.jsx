@@ -14,7 +14,7 @@ export const GtuResultPage = () => {
   return (
     <div className="container">
       {/* Sidebar */}
-      <HomePage />
+      {/* <HomePage /> */}
       <Sidebar isOpen={isSidebarOpen} />
 
       {/* Navbar */}
@@ -42,6 +42,7 @@ export const GtuResultPage = () => {
           </a>
         </div>
       </div>
+      
     </div>
   );
 };

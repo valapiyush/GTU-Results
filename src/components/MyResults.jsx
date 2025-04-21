@@ -6,6 +6,14 @@ export const MyResults = () => {
   return (
     <div>
       <GtuResultPage />
+      <div>
+        {/* <GtuResultPage/> */}
+        <div className="bounce-wrapper">
+      <div className="bounce-track">
+        Click here to submit your Bank Account Details
+      </div>
+    </div>
+    </div>
       {/* <HomePage /> */}
       <div className="details-container">
         <div className="white-panel pn personal-info">
