@@ -13,7 +13,7 @@ const ResultViewer = () => {
 
   const studentDetails = {
     name: "Kuldip Parmar",
-    enrollment: "240280769017",
+    enrollment: "200280106047",
     declaredOn: "05 Mar 2025",
     exam: "ME SEM 1 - Regular (DEC 2024)[Except ME (MECH) Armament Engineering Engineering Branch Code 94]",
     branch: "Civil Engineering(Transportation ENGINEERING)",
@@ -39,7 +39,7 @@ const ResultViewer = () => {
     {
       subjectCode: "ME01069011",
       subjectName: "Traffic Engineering",
-      grade: "Bc",
+      grade: "BC",
       intGrade: " - ",
       absent: " - ",
       backlog: { E: "-", M: "-", I: "-", V: "-" },
