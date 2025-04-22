@@ -75,7 +75,7 @@ export const Sidebar = ({ isOpen }) => {
           <li><NavLink to="/payment-status" className={({ isActive }) => isActive ? "active" : ""}><FaBookmark className="icon" /><span>Check Payment Status</span></NavLink></li>
           <li><NavLink to="/prc-fees" className={({ isActive }) => isActive ? "active" : ""}><FaBookmark className="icon" /><span>PRC (Affiliation) Fees</span></NavLink></li>
           <li><NavLink to="/logs" className={({ isActive }) => isActive ? "active" : ""}><FaBookmark className="icon" /><span>View my last 10 logs</span></NavLink></li>
-          <li><NavLink to="/my-results-2" className={({ isActive }) => isActive ? "active" : ""}><FaClipboardList className="icon" /><span>My Results</span></NavLink></li>
+          {/* <li><NavLink to="/my-results-2" className={({ isActive }) => isActive ? "active" : ""}><FaClipboardList className="icon" /><span>My Results</span></NavLink></li> */}
         </ul>
       </div>
     </div>

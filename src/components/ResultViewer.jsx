@@ -26,7 +26,7 @@ const ResultViewer = () => {
       grade: "BB",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
     {
       subjectCode: "ME01000021",
@@ -34,7 +34,7 @@ const ResultViewer = () => {
       grade: "PS",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
     {
       subjectCode: "ME01069011",
@@ -42,7 +42,7 @@ const ResultViewer = () => {
       grade: "BC",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
     {
       subjectCode: "ME01069021",
@@ -50,7 +50,7 @@ const ResultViewer = () => {
       grade: "BB",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
     {
       subjectCode: "ME01069041",
@@ -58,7 +58,7 @@ const ResultViewer = () => {
       grade: "BB",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
     {
       subjectCode: "ME01069061",
@@ -66,7 +66,7 @@ const ResultViewer = () => {
       grade: "BC",
       intGrade: " - ",
       absent: " - ",
-      backlog: { E: "-", M: "-", I: "-", V: "-" },
+      backlog: { E: "N", M: "N", I: "N", V: "N" },
     },
   ];
 
