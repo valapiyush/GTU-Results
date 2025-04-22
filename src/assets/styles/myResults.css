@@ -102,7 +102,7 @@ body {
 @media screen and (max-width: 1200px) {
   .details-container {
     gap: 40px; /* Reduce gap on medium screens */
-    margin-left: 20px; 
+    margin-left: 60px; 
     margin-right: 20px;
   }
 
