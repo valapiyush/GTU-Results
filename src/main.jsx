@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/GTU-Results">
+  <BrowserRouter basename="/GTU-Result">
     <App />
   </BrowserRouter>
 )
