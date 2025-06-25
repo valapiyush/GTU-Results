@@ -45,7 +45,7 @@ export const Sidebar = ({ isOpen }) => {
       >
         <ul className="sidebar-menu">
           <h5 className="centered">
-            <span id="map-number">200280106047</span>
+            <span id="map-number">240280769017</span>
           </h5>
           <div className="centered">
             <NavLink to="/home" tabIndex="0">

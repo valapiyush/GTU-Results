@@ -13,7 +13,7 @@ const ResultViewer = () => {
 
   const studentDetails = {
     name: "Kuldip Parmar",
-    enrollment: "200280106047",
+    enrollment: "240280769017",
     declaredOn: "05 Mar 2025",
     exam: "ME SEM 1 - Regular (DEC 2024)[Except ME (MECH) Armament Engineering Engineering Branch Code 94]",
     branch: "Civil Engineering(Transportation ENGINEERING)",
